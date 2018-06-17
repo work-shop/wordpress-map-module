@@ -1,0 +1,29 @@
+<!--
+  This html file is served by the `budo` package to support development of the map module.
+-->
+<html>
+  <head>
+
+    <!--
+      budo will serve files out of src/ & development/public/
+    -->
+    <link rel="stylesheet" href="map-style.css">
+
+  </head>
+  <body>
+    
+    
+    <!--
+      Google Maps JS Bundle
+      - Use with `async defer` if using `$(window).on( 'load' )`
+      - Use without `asycn defer` if using `$( document ).ready`
+    -->
+    <script src="https://maps.googleapis.com/maps/api/js" async defer></script>
+
+    <!--
+      "dev-bundle.js" is produced by budo, defined in package.json/scripts.start using the "serve" attribute
+    -->
+    <script src="dev-bundle.js"></script>
+
+  </body>
+</html>
