@@ -1,0 +1,3351 @@
+[
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/516"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/516/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=516"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 453,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=453",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:06:30",
+            "post_date_gmt": "2018-06-13 19:06:30",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:06:30",
+            "post_modified_gmt": "2018-06-13 19:06:30",
+            "post_name": "abigail-bianchi",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Abigail Bianchi",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "5:30 pm",
+          "day": "Monday",
+          "opening_time": "9:00 am"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Tuesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Wednesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "8:00 pm",
+          "day": "Thursday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Friday",
+          "opening_time": "1:00 pm"
+        }
+      ],
+      "image": {
+        "ID": 517,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 21:45:57",
+        "description": "",
+        "filename": "washington-park.png",
+        "filesize": 269039,
+        "height": 287,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 517,
+        "link": "http://staging.pvdyoungmakers.com/locations/washington-park-library/washington-park/",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "modified": "2018-06-13 21:46:00",
+        "name": "washington-park",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park-300x200.png",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+          "large-height": 287,
+          "large-width": 430,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park-300x200.png",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+          "medium_large-height": 287,
+          "medium_large-width": 430,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+          "page_hero-height": 287,
+          "page_hero-width": 430,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+          "social_card-height": 287,
+          "social_card-width": 430,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park-150x150.png",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "png",
+        "title": "washington park",
+        "type": "image",
+        "uploaded_to": 516,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+        "width": 430
+      },
+      "library_staff": {
+        "contact": [
+          {
+            "ID": 519,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=519",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 21:53:05",
+            "post_date_gmt": "2018-06-13 21:53:05",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 21:53:05",
+            "post_modified_gmt": "2018-06-13 21:53:05",
+            "post_name": "kelly-parlin",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Kelly Parlin",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": "",
+      "location_description": "<p>Washington Park Library is located at 1316 Broad Street, Providence, RI 02905</p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "5:30 pm",
+            "day": "Monday",
+            "opening_time": "9:00 am"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Tuesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Wednesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "8:00 pm",
+            "day": "Thursday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Friday",
+            "opening_time": "1:00 pm"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 517,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 21:45:57",
+          "description": "",
+          "filename": "washington-park.png",
+          "filesize": 269039,
+          "height": 287,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 517,
+          "link": "http://staging.pvdyoungmakers.com/locations/washington-park-library/washington-park/",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "modified": "2018-06-13 21:46:00",
+          "name": "washington-park",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park-300x200.png",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+            "large-height": 287,
+            "large-width": 430,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park-300x200.png",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+            "medium_large-height": 287,
+            "medium_large-width": 430,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+            "page_hero-height": 287,
+            "page_hero-width": 430,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+            "social_card-height": 287,
+            "social_card-width": 430,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park-150x150.png",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "png",
+          "title": "washington park",
+          "type": "image",
+          "uploaded_to": 516,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/washington-park.png",
+          "width": 430
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T21:48:07",
+    "date_gmt": "2018-06-13T21:48:07",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=516"
+    },
+    "id": 516,
+    "link": "http://staging.pvdyoungmakers.com/locations/washington-park-library/",
+    "modified": "2018-06-13T21:53:30",
+    "modified_gmt": "2018-06-13T21:53:30",
+    "slug": "washington-park-library",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Washington Park Library"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/508"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/508/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=508"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 451,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=451",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:05:57",
+            "post_date_gmt": "2018-06-13 19:05:57",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:05:57",
+            "post_modified_gmt": "2018-06-13 19:05:57",
+            "post_name": "francesca-del-prete",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Francesca Del Prete",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "5:30 pm",
+          "day": "Monday",
+          "opening_time": "9:00 am"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Tuesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Wednesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "8:00 pm",
+          "day": "Thursday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Friday",
+          "opening_time": "1:00 pm"
+        }
+      ],
+      "image": {
+        "ID": 509,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 21:37:05",
+        "description": "",
+        "filename": "wanskuck.png",
+        "filesize": 270626,
+        "height": 287,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 509,
+        "link": "http://staging.pvdyoungmakers.com/locations/wanskuck-library/wanskuck/",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "modified": "2018-06-13 21:37:07",
+        "name": "wanskuck",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck-300x200.png",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+          "large-height": 287,
+          "large-width": 430,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck-300x200.png",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+          "medium_large-height": 287,
+          "medium_large-width": 430,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+          "page_hero-height": 287,
+          "page_hero-width": 430,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+          "social_card-height": 287,
+          "social_card-width": 430,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck-150x150.png",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "png",
+        "title": "wanskuck",
+        "type": "image",
+        "uploaded_to": 508,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+        "width": 430
+      },
+      "library_staff": {
+        "contact": [
+          {
+            "ID": 512,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=512",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 21:43:26",
+            "post_date_gmt": "2018-06-13 21:43:26",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 21:43:26",
+            "post_modified_gmt": "2018-06-13 21:43:26",
+            "post_name": "molly-osborne",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Molly Osborne",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": "",
+      "location_description": "<p>Wanskuck Library is located at 233 Veazie Street, Providence, RI 02904</p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "5:30 pm",
+            "day": "Monday",
+            "opening_time": "9:00 am"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Tuesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Wednesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "8:00 pm",
+            "day": "Thursday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Friday",
+            "opening_time": "1:00 pm"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 509,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 21:37:05",
+          "description": "",
+          "filename": "wanskuck.png",
+          "filesize": 270626,
+          "height": 287,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 509,
+          "link": "http://staging.pvdyoungmakers.com/locations/wanskuck-library/wanskuck/",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "modified": "2018-06-13 21:37:07",
+          "name": "wanskuck",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck-300x200.png",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+            "large-height": 287,
+            "large-width": 430,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck-300x200.png",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+            "medium_large-height": 287,
+            "medium_large-width": 430,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+            "page_hero-height": 287,
+            "page_hero-width": 430,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+            "social_card-height": 287,
+            "social_card-width": 430,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck-150x150.png",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "png",
+          "title": "wanskuck",
+          "type": "image",
+          "uploaded_to": 508,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/wanskuck.png",
+          "width": 430
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T21:39:14",
+    "date_gmt": "2018-06-13T21:39:14",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=508"
+    },
+    "id": 508,
+    "link": "http://staging.pvdyoungmakers.com/locations/wanskuck-library/",
+    "modified": "2018-06-15T17:25:42",
+    "modified_gmt": "2018-06-15T17:25:42",
+    "slug": "wanskuck-library",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Wanskuck Library"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/503"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/503/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=503"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 449,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=449",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:05:06",
+            "post_date_gmt": "2018-06-13 19:05:06",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:05:06",
+            "post_modified_gmt": "2018-06-13 19:05:06",
+            "post_name": "chris-gross",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Chris Gross",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "6:00 pm",
+          "day": "Monday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "8:00 pm",
+          "day": "Tuesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "5:30 pm",
+          "day": "Wednesday",
+          "opening_time": "9:00 am"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Thursday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Friday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Saturday",
+          "opening_time": "10:00 am"
+        }
+      ],
+      "image": {
+        "ID": 504,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 21:29:24",
+        "description": "",
+        "filename": "south-providence.png",
+        "filesize": 266766,
+        "height": 287,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 504,
+        "link": "http://staging.pvdyoungmakers.com/locations/south-providence-library/south-providence/",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "modified": "2018-06-13 21:29:30",
+        "name": "south-providence",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence-300x200.png",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+          "large-height": 287,
+          "large-width": 430,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence-300x200.png",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+          "medium_large-height": 287,
+          "medium_large-width": 430,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+          "page_hero-height": 287,
+          "page_hero-width": 430,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+          "social_card-height": 287,
+          "social_card-width": 430,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence-150x150.png",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "png",
+        "title": "south providence",
+        "type": "image",
+        "uploaded_to": 503,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+        "width": 430
+      },
+      "library_staff": {
+        "contact": "",
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": "",
+      "location_description": "<p>South Providence Library is located at 441 Prairie Avenue, Providence, RI 02905</p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "6:00 pm",
+            "day": "Monday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "8:00 pm",
+            "day": "Tuesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "5:30 pm",
+            "day": "Wednesday",
+            "opening_time": "9:00 am"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Thursday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Friday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Saturday",
+            "opening_time": "10:00 am"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 504,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 21:29:24",
+          "description": "",
+          "filename": "south-providence.png",
+          "filesize": 266766,
+          "height": 287,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 504,
+          "link": "http://staging.pvdyoungmakers.com/locations/south-providence-library/south-providence/",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "modified": "2018-06-13 21:29:30",
+          "name": "south-providence",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence-300x200.png",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+            "large-height": 287,
+            "large-width": 430,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence-300x200.png",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+            "medium_large-height": 287,
+            "medium_large-width": 430,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+            "page_hero-height": 287,
+            "page_hero-width": 430,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+            "social_card-height": 287,
+            "social_card-width": 430,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence-150x150.png",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "png",
+          "title": "south providence",
+          "type": "image",
+          "uploaded_to": 503,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/south-providence.png",
+          "width": 430
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T21:34:32",
+    "date_gmt": "2018-06-13T21:34:32",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=503"
+    },
+    "id": 503,
+    "link": "http://staging.pvdyoungmakers.com/locations/south-providence-library/",
+    "modified": "2018-06-13T21:43:45",
+    "modified_gmt": "2018-06-13T21:43:45",
+    "slug": "south-providence-library",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "South Providence Library"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/496"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/496/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=496"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 453,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=453",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:06:30",
+            "post_date_gmt": "2018-06-13 19:06:30",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:06:30",
+            "post_modified_gmt": "2018-06-13 19:06:30",
+            "post_name": "abigail-bianchi",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Abigail Bianchi",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "6:00 pm",
+          "day": "Monday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Tuesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "8:00 pm",
+          "day": "Wednesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "5:30 pm",
+          "day": "Thursday",
+          "opening_time": "9:00 am"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Friday",
+          "opening_time": "1:00 pm"
+        }
+      ],
+      "image": {
+        "ID": 497,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 21:13:48",
+        "description": "",
+        "filename": "smith-hill.png",
+        "filesize": 257671,
+        "height": 287,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 497,
+        "link": "http://staging.pvdyoungmakers.com/locations/smith-hill-library/smith-hill/",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "modified": "2018-06-13 21:13:52",
+        "name": "smith-hill",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill-300x200.png",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+          "large-height": 287,
+          "large-width": 430,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill-300x200.png",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+          "medium_large-height": 287,
+          "medium_large-width": 430,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+          "page_hero-height": 287,
+          "page_hero-width": 430,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+          "social_card-height": 287,
+          "social_card-width": 430,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill-150x150.png",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "png",
+        "title": "smith hill",
+        "type": "image",
+        "uploaded_to": 496,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+        "width": 430
+      },
+      "library_staff": {
+        "contact": [
+          {
+            "ID": 499,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=499",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 21:20:46",
+            "post_date_gmt": "2018-06-13 21:20:46",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 21:21:15",
+            "post_modified_gmt": "2018-06-13 21:21:15",
+            "post_name": "jennifer-romans",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Jennifer Romans",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": "",
+      "location_description": "<p>Smith Hill Library is located at 31 Candace Street, Providence, RI 02908</p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "6:00 pm",
+            "day": "Monday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Tuesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "8:00 pm",
+            "day": "Wednesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "5:30 pm",
+            "day": "Thursday",
+            "opening_time": "9:00 am"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Friday",
+            "opening_time": "1:00 pm"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 497,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 21:13:48",
+          "description": "",
+          "filename": "smith-hill.png",
+          "filesize": 257671,
+          "height": 287,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 497,
+          "link": "http://staging.pvdyoungmakers.com/locations/smith-hill-library/smith-hill/",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "modified": "2018-06-13 21:13:52",
+          "name": "smith-hill",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill-300x200.png",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+            "large-height": 287,
+            "large-width": 430,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill-300x200.png",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+            "medium_large-height": 287,
+            "medium_large-width": 430,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+            "page_hero-height": 287,
+            "page_hero-width": 430,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+            "social_card-height": 287,
+            "social_card-width": 430,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill-150x150.png",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "png",
+          "title": "smith hill",
+          "type": "image",
+          "uploaded_to": 496,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/smith-hill.png",
+          "width": 430
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T21:18:10",
+    "date_gmt": "2018-06-13T21:18:10",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=496"
+    },
+    "id": 496,
+    "link": "http://staging.pvdyoungmakers.com/locations/smith-hill-library/",
+    "modified": "2018-06-13T21:21:34",
+    "modified_gmt": "2018-06-13T21:21:34",
+    "slug": "smith-hill-library",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Smith Hill Library"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/490"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/490/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=490"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 447,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=447",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:04:09",
+            "post_date_gmt": "2018-06-13 19:04:09",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:04:09",
+            "post_modified_gmt": "2018-06-13 19:04:09",
+            "post_name": "josie-michaud",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Josie Michaud",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "8:45 pm",
+          "day": "Monday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "5:45 pm",
+          "day": "Tuesday",
+          "opening_time": "9:30 am"
+        },
+        {
+          "closing_time": "5:45 pm",
+          "day": "Wednesday",
+          "opening_time": "9:30 am"
+        },
+        {
+          "closing_time": "8:45 pm",
+          "day": "Thursday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "5:45 pm",
+          "day": "Friday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "5:45 pm",
+          "day": "Saturday",
+          "opening_time": "1:00 pm"
+        }
+      ],
+      "image": {
+        "ID": 491,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 20:40:16",
+        "description": "",
+        "filename": "rochambeau.png",
+        "filesize": 220416,
+        "height": 287,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 491,
+        "link": "http://staging.pvdyoungmakers.com/locations/rochambeau-library/rochambeau/",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "modified": "2018-06-13 20:46:59",
+        "name": "rochambeau",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau-300x200.png",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+          "large-height": 287,
+          "large-width": 430,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau-300x200.png",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+          "medium_large-height": 287,
+          "medium_large-width": 430,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+          "page_hero-height": 287,
+          "page_hero-width": 430,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+          "social_card-height": 287,
+          "social_card-width": 430,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau-150x150.png",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "png",
+        "title": "rochambeau",
+        "type": "image",
+        "uploaded_to": 490,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+        "width": 430
+      },
+      "library_staff": {
+        "contact": [
+          {
+            "ID": 493,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=493",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 21:09:24",
+            "post_date_gmt": "2018-06-13 21:09:24",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 21:09:24",
+            "post_modified_gmt": "2018-06-13 21:09:24",
+            "post_name": "laken-hottle",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Laken Hottle",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": "",
+      "location_description": "<p>Rochambeau Library is located at 708 Hope Street, Providence, RI 02906</p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "8:45 pm",
+            "day": "Monday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "5:45 pm",
+            "day": "Tuesday",
+            "opening_time": "9:30 am"
+          },
+          {
+            "closing_time": "5:45 pm",
+            "day": "Wednesday",
+            "opening_time": "9:30 am"
+          },
+          {
+            "closing_time": "8:45 pm",
+            "day": "Thursday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "5:45 pm",
+            "day": "Friday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "5:45 pm",
+            "day": "Saturday",
+            "opening_time": "1:00 pm"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 491,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 20:40:16",
+          "description": "",
+          "filename": "rochambeau.png",
+          "filesize": 220416,
+          "height": 287,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 491,
+          "link": "http://staging.pvdyoungmakers.com/locations/rochambeau-library/rochambeau/",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "modified": "2018-06-13 20:46:59",
+          "name": "rochambeau",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau-300x200.png",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+            "large-height": 287,
+            "large-width": 430,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau-300x200.png",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+            "medium_large-height": 287,
+            "medium_large-width": 430,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+            "page_hero-height": 287,
+            "page_hero-width": 430,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+            "social_card-height": 287,
+            "social_card-width": 430,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau-150x150.png",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "png",
+          "title": "rochambeau",
+          "type": "image",
+          "uploaded_to": 490,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/rochambeau.png",
+          "width": 430
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T20:56:40",
+    "date_gmt": "2018-06-13T20:56:40",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=490"
+    },
+    "id": 490,
+    "link": "http://staging.pvdyoungmakers.com/locations/rochambeau-library/",
+    "modified": "2018-06-13T21:09:53",
+    "modified_gmt": "2018-06-13T21:09:53",
+    "slug": "rochambeau-library",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Rochambeau Library"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/480"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/480/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=480"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 451,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=451",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:05:57",
+            "post_date_gmt": "2018-06-13 19:05:57",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:05:57",
+            "post_modified_gmt": "2018-06-13 19:05:57",
+            "post_name": "francesca-del-prete",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Francesca Del Prete",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "9:00 pm",
+          "day": "Monday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "9:00 pm",
+          "day": "Tuesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Wednesday",
+          "opening_time": "12:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Thursday",
+          "opening_time": "9:30 am"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Friday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Saturday",
+          "opening_time": "1:00 pm"
+        }
+      ],
+      "image": {
+        "ID": 482,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 20:07:36",
+        "description": "",
+        "filename": "mtp.png",
+        "filesize": 252116,
+        "height": 287,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 482,
+        "link": "http://staging.pvdyoungmakers.com/locations/mt-pleasant-library/mtp/",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "modified": "2018-06-13 20:07:39",
+        "name": "mtp",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp-300x200.png",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+          "large-height": 287,
+          "large-width": 430,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp-300x200.png",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+          "medium_large-height": 287,
+          "medium_large-width": 430,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+          "page_hero-height": 287,
+          "page_hero-width": 430,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+          "social_card-height": 287,
+          "social_card-width": 430,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp-150x150.png",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "png",
+        "title": "mtp",
+        "type": "image",
+        "uploaded_to": 480,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+        "width": 430
+      },
+      "library_staff": {
+        "contact": [
+          {
+            "ID": 487,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=487",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 20:29:40",
+            "post_date_gmt": "2018-06-13 20:29:40",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 20:29:40",
+            "post_modified_gmt": "2018-06-13 20:29:40",
+            "post_name": "garrett-locke",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Garrett Locke",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": "",
+      "location_description": "<p>Mt. Pleasant is located at  315 Academy Avenue, <span class=\"locality\">Providence</span>, <span class=\"state\">RI</span> <span class=\"postal-code\">02908</span></p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "9:00 pm",
+            "day": "Monday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "9:00 pm",
+            "day": "Tuesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Wednesday",
+            "opening_time": "12:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Thursday",
+            "opening_time": "9:30 am"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Friday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Saturday",
+            "opening_time": "1:00 pm"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 482,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 20:07:36",
+          "description": "",
+          "filename": "mtp.png",
+          "filesize": 252116,
+          "height": 287,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 482,
+          "link": "http://staging.pvdyoungmakers.com/locations/mt-pleasant-library/mtp/",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "modified": "2018-06-13 20:07:39",
+          "name": "mtp",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp-300x200.png",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+            "large-height": 287,
+            "large-width": 430,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp-300x200.png",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+            "medium_large-height": 287,
+            "medium_large-width": 430,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+            "page_hero-height": 287,
+            "page_hero-width": 430,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+            "social_card-height": 287,
+            "social_card-width": 430,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp-150x150.png",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "png",
+          "title": "mtp",
+          "type": "image",
+          "uploaded_to": 480,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/mtp.png",
+          "width": 430
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T20:21:04",
+    "date_gmt": "2018-06-13T20:21:04",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=480"
+    },
+    "id": 480,
+    "link": "http://staging.pvdyoungmakers.com/locations/mt-pleasant-library/",
+    "modified": "2018-06-13T20:29:57",
+    "modified_gmt": "2018-06-13T20:29:57",
+    "slug": "mt-pleasant-library",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Mt. Pleasant Library"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/477"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/477/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=477"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 445,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=445",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:00:48",
+            "post_date_gmt": "2018-06-13 19:00:48",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:03:24",
+            "post_modified_gmt": "2018-06-13 19:03:24",
+            "post_name": "seiji-abe",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Seiji Abe",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "5:30 pm",
+          "day": "Monday",
+          "opening_time": "9:00 am"
+        },
+        {
+          "closing_time": "8:00 pm",
+          "day": "Tuesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Wednesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Thursday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Friday",
+          "opening_time": "1:00 pm"
+        }
+      ],
+      "image": {
+        "ID": 478,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 20:01:58",
+        "description": "",
+        "filename": "fox-point.png",
+        "filesize": 265793,
+        "height": 287,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 478,
+        "link": "http://staging.pvdyoungmakers.com/locations/fox-point-library/fox-point/",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "modified": "2018-06-13 20:02:05",
+        "name": "fox-point",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point-300x200.png",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+          "large-height": 287,
+          "large-width": 430,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point-300x200.png",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+          "medium_large-height": 287,
+          "medium_large-width": 430,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+          "page_hero-height": 287,
+          "page_hero-width": 430,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+          "social_card-height": 287,
+          "social_card-width": 430,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point-150x150.png",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "png",
+        "title": "fox point",
+        "type": "image",
+        "uploaded_to": 477,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+        "width": 430
+      },
+      "library_staff": {
+        "contact": [
+          {
+            "ID": 439,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=439",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 18:57:26",
+            "post_date_gmt": "2018-06-13 18:57:26",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 18:57:26",
+            "post_modified_gmt": "2018-06-13 18:57:26",
+            "post_name": "carla-rennick",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Carla Rennick",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": "",
+      "location_description": "<p>Fox Point library is located at 90 Ives Street <span class=\"locality\">Providence</span>, <span class=\"state\">RI</span> <span class=\"postal-code\">02906</span></p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "5:30 pm",
+            "day": "Monday",
+            "opening_time": "9:00 am"
+          },
+          {
+            "closing_time": "8:00 pm",
+            "day": "Tuesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Wednesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Thursday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Friday",
+            "opening_time": "1:00 pm"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 478,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 20:01:58",
+          "description": "",
+          "filename": "fox-point.png",
+          "filesize": 265793,
+          "height": 287,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 478,
+          "link": "http://staging.pvdyoungmakers.com/locations/fox-point-library/fox-point/",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "modified": "2018-06-13 20:02:05",
+          "name": "fox-point",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point-300x200.png",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+            "large-height": 287,
+            "large-width": 430,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point-300x200.png",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+            "medium_large-height": 287,
+            "medium_large-width": 430,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+            "page_hero-height": 287,
+            "page_hero-width": 430,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+            "social_card-height": 287,
+            "social_card-width": 430,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point-150x150.png",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "png",
+          "title": "fox point",
+          "type": "image",
+          "uploaded_to": 477,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/fox-point.png",
+          "width": 430
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T20:04:52",
+    "date_gmt": "2018-06-13T20:04:52",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=477"
+    },
+    "id": 477,
+    "link": "http://staging.pvdyoungmakers.com/locations/fox-point-library/",
+    "modified": "2018-06-13T20:04:52",
+    "modified_gmt": "2018-06-13T20:04:52",
+    "slug": "fox-point-library",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Fox Point Library"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/438"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/438/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=438"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 435,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=435",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 18:58:21",
+            "post_date_gmt": "2018-06-13 18:58:21",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 18:58:21",
+            "post_modified_gmt": "2018-06-13 18:58:21",
+            "post_name": "steve-heath",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Steve Heath",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "6:00 am",
+          "day": "Monday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "5:30 am",
+          "day": "Tuesday",
+          "opening_time": "9:00 am"
+        },
+        {
+          "closing_time": "8:00 pm",
+          "day": "Wednesday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Thursday",
+          "opening_time": "1:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Friday",
+          "opening_time": "1:00 pm"
+        }
+      ],
+      "image": {
+        "ID": 473,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 19:51:51",
+        "description": "",
+        "filename": "olneyville.png",
+        "filesize": 221725,
+        "height": 287,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 473,
+        "link": "http://staging.pvdyoungmakers.com/locations/olneyville/olneyville/",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "modified": "2018-06-13 19:51:58",
+        "name": "olneyville",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville-300x200.png",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+          "large-height": 287,
+          "large-width": 430,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville-300x200.png",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+          "medium_large-height": 287,
+          "medium_large-width": 430,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+          "page_hero-height": 287,
+          "page_hero-width": 430,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+          "social_card-height": 287,
+          "social_card-width": 430,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville-150x150.png",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "png",
+        "title": "olneyville",
+        "type": "image",
+        "uploaded_to": 438,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+        "width": 430
+      },
+      "library_staff": {
+        "contact": [
+          {
+            "ID": 455,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=455",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:08:56",
+            "post_date_gmt": "2018-06-13 19:08:56",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:08:56",
+            "post_modified_gmt": "2018-06-13 19:08:56",
+            "post_name": "antonia-garcia",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Antonia Garcia",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": {
+        "address": "js",
+        "lat": "41.81629200385342",
+        "lng": "-71.40854704864358"
+      },
+      "location_description": "<p>Olneyville Library is located at 1 Olneyville Square, <span class=\"locality\">Providence</span>, <span class=\"state\">RI</span> <span class=\"postal-code\">02909</span></p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "6:00 am",
+            "day": "Monday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "5:30 am",
+            "day": "Tuesday",
+            "opening_time": "9:00 am"
+          },
+          {
+            "closing_time": "8:00 pm",
+            "day": "Wednesday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Thursday",
+            "opening_time": "1:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Friday",
+            "opening_time": "1:00 pm"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 473,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 19:51:51",
+          "description": "",
+          "filename": "olneyville.png",
+          "filesize": 221725,
+          "height": 287,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 473,
+          "link": "http://staging.pvdyoungmakers.com/locations/olneyville/olneyville/",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "modified": "2018-06-13 19:51:58",
+          "name": "olneyville",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville-300x200.png",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+            "large-height": 287,
+            "large-width": 430,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville-300x200.png",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+            "medium_large-height": 287,
+            "medium_large-width": 430,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+            "page_hero-height": 287,
+            "page_hero-width": 430,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+            "social_card-height": 287,
+            "social_card-width": 430,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville-150x150.png",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "png",
+          "title": "olneyville",
+          "type": "image",
+          "uploaded_to": 438,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/olneyville.png",
+          "width": 430
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T19:58:44",
+    "date_gmt": "2018-06-13T19:58:44",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=438"
+    },
+    "id": 438,
+    "link": "http://staging.pvdyoungmakers.com/locations/olneyville/",
+    "modified": "2018-06-13T19:59:17",
+    "modified_gmt": "2018-06-13T19:59:17",
+    "slug": "olneyville",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Olneyville Library"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/372"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/372/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=372"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "Visit PPL's Website",
+        "link_to_page": "",
+        "link_type": "url",
+        "link_url": "https://www.provlib.org/"
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "events": "",
+      "fab_newport_staff": {
+        "contact": "",
+        "contact_email": "chris@fabnewport.org",
+        "contact_name": "Chris Gross",
+        "contact_phone_number": "(401) 830-0096",
+        "contact_type": "write-in"
+      },
+      "hours": [
+        {
+          "closing_time": "1:00 pm",
+          "day": "Sat",
+          "opening_time": "11:00 am"
+        }
+      ],
+      "image": {
+        "ID": 436,
+        "alt": "",
+        "author": "4",
+        "caption": "",
+        "date": "2018-06-13 18:43:24",
+        "description": "",
+        "filename": "PPL-Front-Entrance-s10-10-13.jpg",
+        "filesize": 1483336,
+        "height": 2656,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 436,
+        "link": "http://staging.pvdyoungmakers.com/locations/providence-public-library-empire/ppl-front-entrance-s10-10-13/",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "modified": "2018-06-13 18:44:01",
+        "name": "ppl-front-entrance-s10-10-13",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-300x219.jpg",
+          "acf_preview-height": 219,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-1024x748.jpg",
+          "large-height": 748,
+          "large-width": 1024,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-300x219.jpg",
+          "medium-height": 219,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-768x561.jpg",
+          "medium_large-height": 561,
+          "medium_large-width": 768,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-904x660.jpg",
+          "page_hero-height": 660,
+          "page_hero-width": 904,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-1200x630.jpg",
+          "social_card-height": 630,
+          "social_card-width": 1200,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-150x150.jpg",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "jpeg",
+        "title": "PPL Front Enterance",
+        "type": "image",
+        "uploaded_to": 372,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13.jpg",
+        "width": 3638
+      },
+      "library_staff": {
+        "contact": "",
+        "contact_email": "akilkenny@provlib.org",
+        "contact_name": "Anne Kilkenny ",
+        "contact_phone_number": "(401) 455-8098",
+        "contact_type": "write-in"
+      },
+      "link_label": "Visit PPL's Website",
+      "link_to_page": "",
+      "link_type": "url",
+      "link_url": "https://www.provlib.org/",
+      "location_address": "",
+      "location_description": "<div class=\"Z0LcW\">Providence Public Library is located at 150 Empire St, Providence, RI 02903.</div>\n<div class=\"yxAsKe\"></div>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "1:00 pm",
+            "day": "Sat",
+            "opening_time": "11:00 am"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 436,
+          "alt": "",
+          "author": "4",
+          "caption": "",
+          "date": "2018-06-13 18:43:24",
+          "description": "",
+          "filename": "PPL-Front-Entrance-s10-10-13.jpg",
+          "filesize": 1483336,
+          "height": 2656,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 436,
+          "link": "http://staging.pvdyoungmakers.com/locations/providence-public-library-empire/ppl-front-entrance-s10-10-13/",
+          "menu_order": 0,
+          "mime_type": "image/jpeg",
+          "modified": "2018-06-13 18:44:01",
+          "name": "ppl-front-entrance-s10-10-13",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-300x219.jpg",
+            "acf_preview-height": 219,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-1024x748.jpg",
+            "large-height": 748,
+            "large-width": 1024,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-300x219.jpg",
+            "medium-height": 219,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-768x561.jpg",
+            "medium_large-height": 561,
+            "medium_large-width": 768,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-904x660.jpg",
+            "page_hero-height": 660,
+            "page_hero-width": 904,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-1200x630.jpg",
+            "social_card-height": 630,
+            "social_card-width": 1200,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13-150x150.jpg",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "jpeg",
+          "title": "PPL Front Enterance",
+          "type": "image",
+          "uploaded_to": 372,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/06/PPL-Front-Entrance-s10-10-13.jpg",
+          "width": 3638
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "media_type": "image",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 370,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=370",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "5",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-06-01 16:34:01",
+          "post_date_gmt": "2018-06-01 16:34:01",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-01 16:34:01",
+          "post_modified_gmt": "2018-06-01 16:34:01",
+          "post_name": "epilog-laser-mini-30w",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Epilog Laser Mini 30w",
+          "post_type": "tools",
+          "to_ping": ""
+        },
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-06-13T18:44:39",
+    "date_gmt": "2018-06-13T18:44:39",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=372"
+    },
+    "id": 372,
+    "link": "http://staging.pvdyoungmakers.com/locations/providence-public-library-empire/",
+    "modified": "2018-06-13T18:44:39",
+    "modified_gmt": "2018-06-13T18:44:39",
+    "slug": "providence-public-library-empire",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Providence Public Library &#8211; Empire"
+    },
+    "type": "locations"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/types/locations"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "self": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/132"
+        }
+      ],
+      "version-history": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/locations/132/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://staging.pvdyoungmakers.com/wp-json/wp/v2/media?parent=132"
+        }
+      ]
+    },
+    "acf": {
+      "alert_link": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": ""
+      },
+      "alert_on_off_toggle": false,
+      "alert_text": "",
+      "callout": {
+        "link_label": "",
+        "link_to_page": "",
+        "link_type": "page",
+        "link_url": "",
+        "message": ""
+      },
+      "contact_email": "email@site.domain",
+      "contact_name": "First-name Last-Name",
+      "contact_phone_number": "(401) 467-2625",
+      "contact_type": "write-in",
+      "events": [
+        {
+          "ID": 137,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=events&#038;p=137",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:46:03",
+          "post_date_gmt": "2018-05-29 17:46:03",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-12 17:48:24",
+          "post_modified_gmt": "2018-06-12 17:48:24",
+          "post_name": "3d-printing-workshop-06-1-18",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "3D Printing Workshop (June 1, 2018)",
+          "post_type": "events",
+          "to_ping": ""
+        }
+      ],
+      "fab_newport_staff": {
+        "contact": [
+          {
+            "ID": 449,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=449",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 19:05:06",
+            "post_date_gmt": "2018-06-13 19:05:06",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 19:05:06",
+            "post_modified_gmt": "2018-06-13 19:05:06",
+            "post_name": "chris-gross",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Chris Gross",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "hours": [
+        {
+          "closing_time": "8:00 pm",
+          "day": "Mon",
+          "opening_time": "12:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Tue",
+          "opening_time": "9:30 am"
+        },
+        {
+          "closing_time": "8:00 pm",
+          "day": "Wed",
+          "opening_time": "12:00 pm"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Thu",
+          "opening_time": "9:30 am"
+        },
+        {
+          "closing_time": "6:00 pm",
+          "day": "Fri",
+          "opening_time": "1:00 pm"
+        }
+      ],
+      "image": {
+        "ID": 427,
+        "alt": "An image of Knight Memorial Library",
+        "author": "1",
+        "caption": "",
+        "date": "2018-06-12 17:53:56",
+        "description": "",
+        "filename": "AR-150729723.jpg",
+        "filesize": 1678236,
+        "height": 3024,
+        "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+        "id": 427,
+        "link": "http://staging.pvdyoungmakers.com/locations/knight-memorial-library/ar-150729723/",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "modified": "2018-06-12 18:01:20",
+        "name": "ar-150729723",
+        "sizes": {
+          "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-300x200.jpg",
+          "acf_preview-height": 200,
+          "acf_preview-width": 300,
+          "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-1024x683.jpg",
+          "large-height": 683,
+          "large-width": 1024,
+          "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-300x200.jpg",
+          "medium-height": 200,
+          "medium-width": 300,
+          "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-768x512.jpg",
+          "medium_large-height": 512,
+          "medium_large-width": 768,
+          "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-990x660.jpg",
+          "page_hero-height": 660,
+          "page_hero-width": 990,
+          "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-1200x630.jpg",
+          "social_card-height": 630,
+          "social_card-width": 1200,
+          "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-150x150.jpg",
+          "thumbnail-height": 150,
+          "thumbnail-width": 150
+        },
+        "status": "inherit",
+        "subtype": "jpeg",
+        "title": "Knight Memorial Library",
+        "type": "image",
+        "uploaded_to": 132,
+        "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723.jpg",
+        "width": 4536
+      },
+      "library_staff": {
+        "contact": [
+          {
+            "ID": 484,
+            "comment_count": "0",
+            "comment_status": "closed",
+            "filter": "raw",
+            "guid": "http://staging.pvdyoungmakers.com/?post_type=people&#038;p=484",
+            "menu_order": 0,
+            "ping_status": "closed",
+            "pinged": "",
+            "post_author": "4",
+            "post_content": "",
+            "post_content_filtered": "",
+            "post_date": "2018-06-13 20:24:55",
+            "post_date_gmt": "2018-06-13 20:24:55",
+            "post_excerpt": "",
+            "post_mime_type": "",
+            "post_modified": "2018-06-13 20:24:55",
+            "post_modified_gmt": "2018-06-13 20:24:55",
+            "post_name": "allison-riendeau",
+            "post_parent": 0,
+            "post_password": "",
+            "post_status": "publish",
+            "post_title": "Allison Riendeau",
+            "post_type": "people",
+            "to_ping": ""
+          }
+        ],
+        "contact_email": "",
+        "contact_name": "",
+        "contact_phone_number": "",
+        "contact_type": "from-site"
+      },
+      "link_label": "",
+      "link_to_page": "",
+      "link_type": "page",
+      "location_address": {
+        "address": "Knight Memorial Library, Elmwood Ave, Providence, RI, USA",
+        "lat": "41.80505319999999",
+        "lng": "-71.42598420000002"
+      },
+      "location_description": "<p>Knight Memorial Library is located at 275 Elmwood Avenue, <span class=\"locality\">Providence</span>, <span class=\"state\">RI</span> <span class=\"postal-code\">02907</span></p>\n",
+      "location_hours": {
+        "hours": [
+          {
+            "closing_time": "8:00 pm",
+            "day": "Mon",
+            "opening_time": "12:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Tue",
+            "opening_time": "9:30 am"
+          },
+          {
+            "closing_time": "8:00 pm",
+            "day": "Wed",
+            "opening_time": "12:00 pm"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Thu",
+            "opening_time": "9:30 am"
+          },
+          {
+            "closing_time": "6:00 pm",
+            "day": "Fri",
+            "opening_time": "1:00 pm"
+          }
+        ]
+      },
+      "location_image_or_video": {
+        "image": {
+          "ID": 427,
+          "alt": "An image of Knight Memorial Library",
+          "author": "1",
+          "caption": "",
+          "date": "2018-06-12 17:53:56",
+          "description": "",
+          "filename": "AR-150729723.jpg",
+          "filesize": 1678236,
+          "height": 3024,
+          "icon": "http://staging.pvdyoungmakers.com/wp-includes/images/media/default.png",
+          "id": 427,
+          "link": "http://staging.pvdyoungmakers.com/locations/knight-memorial-library/ar-150729723/",
+          "menu_order": 0,
+          "mime_type": "image/jpeg",
+          "modified": "2018-06-12 18:01:20",
+          "name": "ar-150729723",
+          "sizes": {
+            "acf_preview": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-300x200.jpg",
+            "acf_preview-height": 200,
+            "acf_preview-width": 300,
+            "large": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-1024x683.jpg",
+            "large-height": 683,
+            "large-width": 1024,
+            "medium": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-300x200.jpg",
+            "medium-height": 200,
+            "medium-width": 300,
+            "medium_large": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-768x512.jpg",
+            "medium_large-height": 512,
+            "medium_large-width": 768,
+            "page_hero": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-990x660.jpg",
+            "page_hero-height": 660,
+            "page_hero-width": 990,
+            "social_card": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-1200x630.jpg",
+            "social_card-height": 630,
+            "social_card-width": 1200,
+            "thumbnail": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723-150x150.jpg",
+            "thumbnail-height": 150,
+            "thumbnail-width": 150
+          },
+          "status": "inherit",
+          "subtype": "jpeg",
+          "title": "Knight Memorial Library",
+          "type": "image",
+          "uploaded_to": 132,
+          "url": "http://d2anyjh60ddsz6.cloudfront.net/2018/05/AR-150729723.jpg",
+          "width": 4536
+        },
+        "media_type": "image",
+        "video": false
+      },
+      "locations": [],
+      "media_type": "image",
+      "page_hero_image": false,
+      "page_hero_links": false,
+      "page_summary": "",
+      "second_callout": {
+        "callout": {
+          "link_label": "",
+          "link_to_page": "",
+          "link_type": "page",
+          "link_url": "",
+          "message": ""
+        }
+      },
+      "tools": [
+        {
+          "ID": 66,
+          "comment_count": "0",
+          "comment_status": "closed",
+          "filter": "raw",
+          "guid": "http://staging.pvdyoungmakers.com/?post_type=tools&#038;p=66",
+          "menu_order": 0,
+          "ping_status": "closed",
+          "pinged": "",
+          "post_author": "1",
+          "post_content": "",
+          "post_content_filtered": "",
+          "post_date": "2018-05-29 17:43:45",
+          "post_date_gmt": "2018-05-29 17:43:45",
+          "post_excerpt": "",
+          "post_mime_type": "",
+          "post_modified": "2018-06-15 17:41:41",
+          "post_modified_gmt": "2018-06-15 17:41:41",
+          "post_name": "qidi-3d-printer",
+          "post_parent": 0,
+          "post_password": "",
+          "post_status": "publish",
+          "post_title": "Qidi 3D Printer",
+          "post_type": "tools",
+          "to_ping": ""
+        }
+      ]
+    },
+    "date": "2018-05-29T17:41:40",
+    "date_gmt": "2018-05-29T17:41:40",
+    "guid": {
+      "rendered": "http://staging.pvdyoungmakers.com/?post_type=locations&#038;p=132"
+    },
+    "id": 132,
+    "link": "http://staging.pvdyoungmakers.com/locations/knight-memorial-library/",
+    "modified": "2018-06-13T20:27:30",
+    "modified_gmt": "2018-06-13T20:27:30",
+    "slug": "knight-memorial-library",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Knight Memorial Library"
+    },
+    "type": "locations"
+  }
+]

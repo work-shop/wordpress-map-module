@@ -11,9 +11,31 @@
     <link rel="stylesheet" href="map-style.css">
     <link rel="stylesheet" href="map-usage.css">
 
+    <style>
+      .map-heading {
+        font-family: sans-serif;
+        padding: 40px 20px 0px 20px;
+        margin-bottom: 0.5em;
+      }
+    </style>
+
   </head>
   <body>
-    <div class="map"></div>
+    
+    <section>
+      <p class="map-heading">Map with no data.</p>
+      <div class="map" id="map-default" ></div>
+    </section>
+
+    <section>
+      <p class="map-heading">Map with sample data, default pop-ups.</p>
+      <div class="map" id="map-data-added"></div>    
+    </section>
+
+    <section>
+      <p class="map-heading">Map with sample data added, then removed.</p>
+      <div class="map" id="map-data-removed"></div>  
+    </section>
     
     <!--
       Google Maps JS Bundle
