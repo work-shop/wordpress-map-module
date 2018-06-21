@@ -1,6 +1,9 @@
+/* --- InfoWindow start --- */
+
+
 /*style the box*/  
 .gm-style .gm-style-iw {
-    background-color: #3C61AD !important;
+    background-color: lightblue !important;
     top: 0 !important;
     left: 0 !important;
     width: 100% !important;
@@ -18,7 +21,8 @@
 
 /*style the arrow*/
 .gm-style div div div div div div div div {
-    background-color: red !important;
+    width: 100% !important;
+    background-color: salmon !important;
     margin: 0;
     padding: 0;
     top: 0;
@@ -28,6 +32,80 @@
 
 /*style the link*/
 .gm-style div div div div div div div div a {
-    color: #f1f1f1;
+    color: pink;
     font-weight: bold;
 }
+
+/* content-wrapper
+    would need to adjust height via js to respond to content shape */
+.gm-style div div div div div {
+
+}
+
+/* tip */
+.gm-style div div div div div div div:first-child {
+    border-top-color: salmon !important;
+    border-top-width: 10px !important;
+    /*border-left-width: 30px !important;
+    border-right-width: 30px !important;*/
+}
+
+/* --- InfoWindow end --- */
+
+
+/* --- Popup start --- */
+
+ The location pointed to by the popup tip. 
+.popup-tip-anchor {
+    height: 0;
+    position: absolute;
+    /* The max width of the info window. */
+    width: 200px;
+}
+
+/* The bubble is anchored above the tip. */
+.popup-bubble-anchor {
+    position: absolute;
+    width: 100%;
+    bottom: /* TIP_HEIGHT= */ 8px;
+    left: 0;
+}
+
+/* Draw the tip. */
+.popup-bubble-anchor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Center the tip horizontally. */
+    transform: translate(-50%, 0);
+    /* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
+    width: 0;
+    height: 0;
+    /* The tip is 8px high, and 12px wide. */
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: /* TIP_HEIGHT= */ 8px solid white;
+}
+
+/* The popup bubble itself. */
+.popup-bubble-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -100%);
+    /* Style the info window. */
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    overflow-y: auto;
+    max-height: 60px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+.popup-bubble-content p {
+    margin: 0;
+}
+
+/* --- Popup end --- */

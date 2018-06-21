@@ -1,5 +1,6 @@
 /* globals google.maps */
 
+var validatePosition = require( './utils/validate-position.js' )
 var isObject = require( './utils/is-object.js' )
 
 module.exports = Marker;
@@ -28,14 +29,15 @@ function Marker ( options ) {
       '\n\t              These keys can be supplied as floats or strings.'
 
     console.log( errorMessage )
-    console.log( 'Was supplied with:' )
+    console.log( 'Was given:' )
     console.log( options )
-    return;
+    throw new Error( errorMessage )
   }
 
   var marker;
   var markerListeners = []
   var infoWindow;
+  var popup;
 
   var api = {
     instance: function () { return marker },
@@ -57,20 +59,12 @@ function Marker ( options ) {
    * @return {object} markerOptions
    */
   function validateOptions ( markerOptions ) {
-    var hasPosition = isObject( markerOptions ) &&
-                      isObject( markerOptions.position )
+    if ( ! isObject( markerOptions ) ) return false;
 
-    if ( ! hasPosition ) return false;
-
-    markerOptions.position.lat = Number.parseFloat( markerOptions.position.lat )
-    markerOptions.position.lng = Number.parseFloat( markerOptions.position.lng )
-
+    var hasPosition = validatePosition( markerOptions.position )
     var hasMap = markerOptions.hasOwnProperty( 'map' )
 
-    var hasLat = ! Number.isNaN( markerOptions.position.lat )
-    var hasLng = ! Number.isNaN( markerOptions.position.lng )
-
-    return hasPosition && hasMap && hasLat && hasLng;
+    return hasPosition && hasMap;
   }
 
   /**
@@ -90,6 +84,13 @@ function Marker ( options ) {
         infoWindow.open( options.map, marker )
       } )
       markerListeners.push( markerClick )
+    }
+
+    if ( options.popup && ! popup ) {
+      var SnazzyInfoWindow = require( 'snazzy-info-window' )
+      popup = new SnazzyInfoWindow(
+        Object.assign( { marker: marker }, options.popup ) )
+      
     }
 
     if ( isObject( options.on ) && isEmptyArray( markerListeners ) ) {
