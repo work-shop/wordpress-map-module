@@ -1,6 +1,7 @@
 /* globals google.maps */
 
-var validatePosition = require( './utils/validate-position.js' )
+var isArrayWithItems = require( './utils/is-array-with-items.js' )
+var isPosition = require( './utils/is-position.js' )
 var deafultTileStyle = require( './tile-style.json' )
 var isObject = require( './utils/is-object.js' )
 var isNumber = require( './utils/is-number.js' )
@@ -33,6 +34,13 @@ function Map ( options ) {
     // defaults to `Silver` styles as defined by`https://mapstyle.withgoogle.com/` 
     styles: options.styles || deafultTileStyle,
     gestureHandling: options.gestureHandling || 'cooperative',
+  }
+
+  var fitBoundsPadding = options.fitBoundsPadding || {
+    top: 100,
+    right: 100,
+    bottom: 100,
+    left: 100,
   }
 
   var mapOptions = Object.assign( {}, opinionatedDefaultMapOptions, options )
@@ -78,7 +86,7 @@ function Map ( options ) {
     if ( renderOptions.center || renderOptions.zoom ) {
       // set map bounds based on center &| zoom
       if ( renderOptions.center ) {
-        if ( validatePosition( renderOptions.center ) ) {
+        if ( isPosition( renderOptions.center ) ) {
           mapInstance.setCenter( renderOptions.center )
         }
         else {
@@ -89,6 +97,10 @@ function Map ( options ) {
             '\nthe map.'
           throw new Error( renderCenterErrorMessage )
         }
+      }
+      else {
+        // set bounds based on data
+        mapInstance.fitBounds( getFeatureBounds( features ), fitBoundsPadding )
       }
       if ( renderOptions.zoom ) {
         if ( isNumber( renderOptions.zoom ) ) {
@@ -105,13 +117,7 @@ function Map ( options ) {
     else {
       // set map bounds based on data
       if ( isArrayWithItems( features ) ) {
-        var paddingInPixels = {
-          top: 100,
-          right: 100,
-          bottom: 100,
-          left: 100,
-        }
-        mapInstance.fitBounds( getFeatureBounds( features ), paddingInPixels )
+        mapInstance.fitBounds( getFeatureBounds( features ), fitBoundsPadding )
       }
     }
 
@@ -201,8 +207,4 @@ function returnObjectKey ( key ) {
   return function returnsKeyInObject ( obj ) {
     return obj[ key ]
   }
-}
-
-function isArrayWithItems ( value ) {
-  return value && Array.isArray( value ) && value.length > 0;
 }
