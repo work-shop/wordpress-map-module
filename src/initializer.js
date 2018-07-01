@@ -17,26 +17,21 @@ function Initializer ( options ) {
   var defaultMapInitializingOptions = options.map || {}
   var defaultMapMarkerOptions = options.marker || {}
   defaultMapMarkerOptions.popup = defaultMapMarkerOptions.popup || {}
+  var deafultRenderOptions = options.render || {}
 
   var mapElements = document.querySelectorAll( selector )
   var mapInstances = [];
 
   for (var i = 0; i < mapElements.length; i++) {
     var mapElement = mapElements[ i ]
-    try {
-      var mapOptionsVariable = mapElement.dataset.options;
-      var mapOptions = window[ mapOptionsVariable ]
-    } catch ( error ) {
-      var errorMessage = 'Could not initialzie map.\n' +
-        'The map element has no `data-options` varible defined.\n'+
-        'The value for `data-options` should be the variable on `window` ' +
-        'that contains an object that defines options for initializing the map.\n' +
-        'Valid options include:\n'+
-        '- `map`: an object to extend the default map configuration with.\n' +
-        '- `data`: an array of objects to render on the map.\n'+
-        '- `render`: an object with { center: { lat, lng }, zoom } that defines the' +
-        ' center point and zoom level for the map.'
-      throw new Error( errorMessage )
+    var mapOptionsVariable = mapElement.dataset.options;
+    var mapOptions = window[ mapOptionsVariable ]
+    if ( ! mapOptions ) {
+      var mapOptions = {
+        map: {},
+        data: [],
+        render: {},
+      }
     }
 
     var instanceMapInitializationOptions = mapOptions.map || {}
@@ -59,12 +54,8 @@ function Initializer ( options ) {
       } )
       currentMap.data( mapData )
     }
-    if ( mapOptions.render ) {
-      currentMap.render( mapOptions.render )
-    }
-    else {
-      currentMap.render()
-    }
+
+    currentMap.render( deepmerge( deafultRenderOptions, ( mapOptions.render || {} ) ) )
 
     mapInstances.push( currentMap );
 

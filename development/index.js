@@ -1,9 +1,28 @@
 var $ = require( 'jquery' )
 var map = require( '../src/index.js' )
+var makeMap = require( '../src/initializer.js' )
 var apiData = require( './wordpress-api-sample.json' )
 
 // Wait for the Google Maps API to be load ( `window.google.maps` )
 $( window ).on('load', function () {
+
+  var initializerMaps = makeMap( {
+    selector: '.via-initializer',
+    map: {
+      streetViewControl: false,
+    },
+    data: {
+      marker: {
+        popup: {
+          pointer: '5px',
+        }
+      }
+    },
+    render: {
+      center: { lat: 41.8240, lng: -71.4128 },
+      zoom: 17
+    }
+  } ) 
 
   // Initialize a map without data to the default coordinates & zoom level
   map( {
