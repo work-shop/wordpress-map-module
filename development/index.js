@@ -23,6 +23,22 @@ $( window ).on('load', function () {
   } ).data( locationData )
      .render()
      .removeFeatures()
+
+  // working with ws-popup
+  map( {
+    container: document.querySelector( '#map-with-ws-popup' )
+  } ).data( {
+        marker: {
+          position: { lat: 41, lng: -71 },
+          icon: { fillColor: 'yellow' },
+          popup: {
+            content: '<h1>oh hai</h1><p>so ws-popup!</p>',
+            placement: 'left',
+            wrapperClass: 'project-popup',
+          },
+        },
+      } )
+      .render( { center: { lat: 41, lng: -71.5 }, zoom: 7.5 } )
 } )
 
 function apiDataHasLatLng ( entry ) {
@@ -38,8 +54,8 @@ function apiDataToFeatureObject ( entry ) {
     marker: {
       title: entry.acf.location_address.address,
       position: {
-        lat: entry.acf.location_address.lat,
-        lng: entry.acf.location_address.lng,
+        lat: +entry.acf.location_address.lat,
+        lng: +entry.acf.location_address.lng,
       },
       // `infoWindow` object is passed into `google.maps.InfoWindow`
       infoWindow: {
