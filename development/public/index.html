@@ -21,6 +21,11 @@
 
   </head>
   <body>
+
+    <section>
+      <p class="map-heading">Map with ws-popup</p>
+      <div class="map" id="map-with-ws-popup"></div>
+    </section>
     
     <section>
       <p class="map-heading">Map with no data.</p>
@@ -42,12 +47,10 @@
       - Query paramters
         - `v=3`  Map Module is written against v3
         - `key=` The API key being used.
-          - Currently using Ruben's API Key.
-          - Update to Work-Shop API Key
       - Use with `async defer` if using `$(window).on( 'load' )`
       - Use without `asycn defer` if using `$( document ).ready`
     -->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCMLJfc7KIGSBjcjiS3Y5nsVIvl6Ij8vTg" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDTkjwJK80N7YCWoKjhKz8c3J1tNEbJpRg" async defer></script>
 
     <!--
       "dev-bundle.js" is produced by budo, defined in package.json/scripts.start using the "serve" attribute
