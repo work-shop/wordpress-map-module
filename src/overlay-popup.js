@@ -523,10 +523,12 @@ function getMapInnerBounds () {
 
 function reposition () {
   if ( ! this._options.panOnOpen || ! this._html ) return;
+  var self = this;
 
   var mapInnerBounds = this.getMapInnerBounds()
   var wrapperBounds = this._html.wrapper.getBoundingClientRect()
   
+  // pan map to include popup bounds.
   var dx = 0;
   var dy = 0;
 
@@ -544,7 +546,26 @@ function reposition () {
   }
 
   if ( dx !== 0 || dy !== 0 ) {
+    var afterPanListener = google.maps.event.addListener( this.getMap(), 'idle', function () {
+      google.maps.event.removeListener( afterPanListener )
+      afterPanListener = null;
+      scrollWindowForPopup()
+    } )
     this.getMap().panBy( dx, dy )
+  }
+  else {
+    scrollWindowForPopup()
+  }
+
+  function scrollWindowForPopup () {
+    // scroll window to include popup bounds.
+    var wrapperBounds = self._html.wrapper.getBoundingClientRect()
+    if ( wrapperBounds.top < 0 ) {
+      if ( typeof window.scrollBy === 'function' )  {
+        window.scrollBy( 0, wrapperBounds.top )
+      }
+    }
+
   }
 }
 
