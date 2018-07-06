@@ -84,11 +84,13 @@ function Marker ( options ) {
 
     marker.setMap( null )
     markerListeners.forEach( removeListener )
-
     marker = null;
-    popup.remove()
-    popup = null;
     markerListeners = []
+
+    if ( popup ) {
+      popup.remove()
+      popup = null;
+    }
 
     return api;
 
