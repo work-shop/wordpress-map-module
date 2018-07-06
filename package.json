@@ -1,6 +1,6 @@
 {
   "name": "@work-shop/map-module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "- [Styles with Google](https://mapstyle.withgoogle.com) - [Snazzy Maps Editor](https://snazzymaps.com/editor)",
   "main": "src/initializer.js",
   "scripts": {
