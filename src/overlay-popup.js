@@ -38,14 +38,23 @@ function OverlayPopup ( options ) {
   this._options = overlayOptions;
   // Setup
   if ( this._marker && overlayOptions.openOnMarkerClick ) {
-    this.trackListener( google.maps.event.addListener( self._marker, 'click', function () {
-      if ( ! self.getMap() ) self.open()
-    } ), true )
+    var markerClickHandler = clickToOpen;
+    if ( overlayOptions.toggleOnMarkerClick ) markerClickHandler = clickToToggle;
+    this.trackListener( google.maps.event.addListener( self._marker, 'click', markerClickHandler ), true )
   }
   if ( this._marker && overlayOptions.openOnInitialization ) {
     if ( ! this.getMap() ) this.open()
   }
 
+  // Interaction handler options
+  function clickToOpen () {
+    if ( ! self.getMap() ) self.open()
+  }
+
+  function clickToToggle () {
+    if ( self.getMap() ) self.close()
+    else self.open()
+  }
 }
 
 OverlayPopup.prototype = Object.create( google.maps.OverlayView.prototype )
@@ -58,7 +67,7 @@ OverlayPopup.prototype.isOpen = isOpen;
 OverlayPopup.prototype.open = open;
 OverlayPopup.prototype.draw = draw;
 OverlayPopup.prototype.close = close;
-OverlayPopup.prototype.destroy = destroy;
+OverlayPopup.prototype.remove = remove;
 OverlayPopup.prototype.setContent = setContent;
 OverlayPopup.prototype.setPosition = setPosition;
 OverlayPopup.prototype.setWrapperClass = setWrapperClass;
@@ -122,7 +131,7 @@ function close () {
   this.setMap( null )
 }
 
-function destroy () {
+function remove () {
   if ( this.getMap() ) this.setMap( null )
   this.clearEventListeners( true )
 }
@@ -392,7 +401,7 @@ function onAdd () {
   }
   if ( this._options.closeWhenOthersOpen ) {
     this.trackListener( google.maps.event.addListener( map, eventPrefix + '-opened', function ( other ) {
-      if ( this !== other ) this.close;
+      if ( self !== other ) self.close();
     } ) )
   }
 
@@ -573,10 +582,12 @@ function defaultOptions ( constructorOptions ) {
     maxWidth: '360px',
     pointer: true,
     openOnMarkerClick: true,
+    toggleOnMarkerClick: true,
     closeOnMapClick: true,
     showCloseButton: true,
     panOnOpen: true,
     openOnInitialization: false,
+    closeWhenOthersOpen: true,
     edgeOffset: {
       top: 20,
       right: 20,

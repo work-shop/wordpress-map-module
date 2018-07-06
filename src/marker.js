@@ -6,7 +6,7 @@ var isObject = require( './utils/is-object.js' )
 module.exports = Marker;
 
 /**
- * Create a google.maps.Marker with an optional google.maps.InfoWindow
+ * Create a google.maps.Marker with an optional Popup
  * that opens when the marker is clicked.
  * 
  * @param {object} options
@@ -14,7 +14,6 @@ module.exports = Marker;
  * @param {object} options.position     The position object of the marker. Required.
  * @param {number} options.position.lat The latitude of the marker.
  * @param {number} options.position.lng The longitude of the marker.
- * @param {?object} options.infoWindow  Optional object to define a marker popup.
  * @return {object} api  The methods available to the created marker.
  */
 function Marker ( options ) {
@@ -36,7 +35,6 @@ function Marker ( options ) {
 
   var marker;
   var markerListeners = []
-  var infoWindow;
   var popup;
 
   var api = {
@@ -57,14 +55,6 @@ function Marker ( options ) {
   function render () {
     if ( ! marker ) {
       marker = new google.maps.Marker( mergeWithDefaults( options ) )
-    }
-
-    if ( options.infoWindow && ! infoWindow ) {
-      infoWindow = new google.maps.InfoWindow( options.infoWindow )
-      var markerClick = marker.addListener( 'click', function () {
-        infoWindow.open( options.map, marker )
-      } )
-      markerListeners.push( markerClick )
     }
 
     if ( options.popup && ! popup ) {
@@ -96,7 +86,8 @@ function Marker ( options ) {
     markerListeners.forEach( removeListener )
 
     marker = null;
-    infoWindow = null;
+    popup.remove()
+    popup = null;
     markerListeners = []
 
     return api;
