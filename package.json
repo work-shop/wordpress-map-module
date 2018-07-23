@@ -1,7 +1,7 @@
 {
   "name": "@work-shop/map-module",
   "version": "1.0.4",
-  "description": "- [Styles with Google](https://mapstyle.withgoogle.com) - [Snazzy Maps Editor](https://snazzymaps.com/editor)",
+  "description": "Map module intended for integration in Work-Shop Wordpress environments.",
   "main": "src/initializer.js",
   "scripts": {
     "start": "budo development/index.js --serve dev-bundle.js --dir development/public/ --dir src/ --live",
