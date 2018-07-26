@@ -1,20 +1,37 @@
 var $ = require( 'jquery' )
-var map = require( '../src/index.js' )
-var makeMap = require( '../src/initializer.js' )
+var makeMap = require( '../src/index.js' )
+var wordpressMapMaker = require( '../src/initializer.js' )
 var apiData = require( './wordpress-api-sample.json' )
 
 // Wait for the Google Maps API to be load ( `window.google.maps` )
 $( window ).on('load', function () {
 
-  var initializerMaps = makeMap( {
+  // Initialize a map without data to the default coordinates & zoom level
+  makeMap( {
+    container: document.querySelector( '#map-default' )
+  } ).render()
+
+  var initializerMaps = wordpressMapMaker( {
     selector: '.via-initializer',
     map: {
       streetViewControl: false,
     },
     data: {
       marker: {
+        icon: {
+          fillColor: 'rgb(200, 10, 10)',
+        },
         popup: {
-          pointer: '5px',
+          placement: 'left',
+          pointer: '8px',
+          on: {
+            open: function () {
+              console.log( 'opened:' + this._options.id )
+            },
+            close: function () {
+              console.log( 'closed:' + this._options.id )
+            }
+          }
         }
       }
     },
@@ -22,28 +39,23 @@ $( window ).on('load', function () {
       center: { lat: 41.8240, lng: -71.4128 },
       zoom: 17
     }
-  } ) 
-
-  // Initialize a map without data to the default coordinates & zoom level
-  map( {
-    container: document.querySelector( '#map-default' )
-  } ).render()
+  } )
 
   // Initialize a map with some markers, and default popup styling
   var locationData = apiData.filter( apiDataHasLatLng ).map( apiDataToFeatureObject )
 
+  // working with ws-popup
+  makeMap( {
+    container: document.querySelector( '#map-with-ws-popup' )
+  } ).data( locationData )
+      .render()
+
   // Remove features from the map after adding them
-  map( {
+  makeMap( {
     container: document.querySelector( '#map-data-removed' )
   } ).data( locationData )
      .render()
      .removeFeatures()
-
-  // working with ws-popup
-  map( {
-    container: document.querySelector( '#map-with-ws-popup' )
-  } ).data( locationData )
-      .render()
 } )
 
 function apiDataHasLatLng ( entry ) {
@@ -53,8 +65,9 @@ function apiDataHasLatLng ( entry ) {
          $.isNumeric( entry.acf.location_address.lng )
 }
 
-function apiDataToFeatureObject ( entry ) {
-  return {
+function apiDataToFeatureObject ( entry, index ) {
+
+  var feature = {
     // `marker` object is passed into `google.maps.Marker`
     marker: {
       title: entry.acf.location_address.address,
@@ -62,13 +75,24 @@ function apiDataToFeatureObject ( entry ) {
         lat: +entry.acf.location_address.lat,
         lng: +entry.acf.location_address.lng,
       },
-      // `infoWindow` object is passed into `google.maps.InfoWindow`
-      popup: {
-        content: `<div>
-          <p>${ entry.acf.location_address.address }</p>
-          <p>${ entry.acf.location_description }</p>
-        </div>`
-      },
     },
   }
+
+  if ( index % 2 === 0 ) {
+    // `popup` powers the `src/overlay-popup.js`
+    feature.marker.popup = {
+      content: `<div>
+        <p>${ entry.acf.location_address.address }</p>
+        <p>${ entry.acf.location_description }</p>
+      </div>`
+    }
+  }
+  else {
+    // `icon` powers the icon options for the marker.
+    feature.marker.icon = {
+      fillColor: 'rgb( 10, 10, 100 )'
+    }
+  }
+
+  return feature;
 }

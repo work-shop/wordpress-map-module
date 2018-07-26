@@ -2,18 +2,28 @@
 
 var isPosition = require( './utils/is-position.js' )
 var isObject = require( './utils/is-object.js' )
+var deepmerge = require( 'deepmerge' )
 
 module.exports = Marker;
 
 /**
- * Create a google.maps.Marker with an optional Popup
- * that opens when the marker is clicked.
+ * Marker creates a google.maps.Marker, and return an interface for
+ * removing, and rendering the Marker. Optionally, if there is a
+ * `popup` key within the `options` object, that will be used as the
+ * options to create an OverlayPopup that will be attached this marker.
+ *
+ * The `api` object that is returned includes 4 functions:
+ * - `instance`: returns the unerlying google.maps.Marker object.
+ * - `options`: returns the original object used to create the marker.
+ * - `render`: creates the marker feature on the map.
+ * - `remove`: removes the marker feature from the map.
  * 
  * @param {object} options
  * @param {object} options.map  The google.maps.Map instance to create in. Required.
  * @param {object} options.position     The position object of the marker. Required.
  * @param {number} options.position.lat The latitude of the marker.
  * @param {number} options.position.lng The longitude of the marker.
+ * @param {object} options.popup  The options to use to initialize the [popup]{@link ./overlay-popup.js}.
  * @return {object} api  The methods available to the created marker.
  */
 function Marker ( options ) {
@@ -27,9 +37,6 @@ function Marker ( options ) {
       '\n\t              latitude & longitude values for the marker.' +
       '\n\t              These keys can be supplied as floats or strings.'
 
-    console.log( errorMessage )
-    console.log( 'Was given:' )
-    console.log( options )
     throw new Error( errorMessage )
   }
 
@@ -122,8 +129,11 @@ function validateOptions ( markerOptions ) {
 }
 
 function mergeWithDefaults ( options ) {
-  var iconOptions = { icon: Object.assign( defaultIconOptions(), options.icon ) }
-  return Object.assign( defaultOptions, options, iconOptions )
+  var map = options.map;
+  delete options.map;
+  options = deepmerge( defaultOptions(), options )
+  options.map = map;
+  return options;
 }
 
 function defaultIconOptions () {
@@ -142,8 +152,10 @@ function defaultIconOptions () {
 
 function defaultOptions () {
   return {
-    pointer: '10px',
-
+    popup: {
+      pointer: '10px',
+    },
+    icon: defaultIconOptions(),
   }
 }
 

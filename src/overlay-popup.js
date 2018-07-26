@@ -9,6 +9,59 @@ var eventPrefix = classPrefix;
 
 module.exports = OverlayPopup;
 
+/**
+ * OverlayPopup creates a google.maps.OverlayView that can be
+ * tied to a map marker.
+ * 
+ * @param {object} options  The options that describe the popup.
+ * @param {string|DOMElement} options.content  A string of HTML or DOM element to use as
+ *                                             the content of the popup. Required.
+ *                                             
+ * @param {?object} options.marker  A google.maps.Marker instance to attach
+ *                                  the popup to.
+ *                                  
+ * @param {?object} options.map  A google.maps.Map instance to attach the popup to. If using
+ *                               this option, a `position` must also be defined.
+ *                               
+ * @param {?object} options.position  An object with a `lat` & `lng` value that determine
+ *                                   the popup's placement. If using this option, a `map`
+ *                                   must also be defined.
+ *                                   
+ * @param {?object} options.on  An object of event handlers.
+ * @param {?function} options.on.beforeOpen  The function to call before opening the popup.
+ * @param {?function} options.on.open  The function to call when popup opens.
+ * @param {?function} options.on.afterOpen  The function to call after the popup opens.
+ * @param {?function} options.on.beforeClose  The function to call before closing the popup.
+ * @param {?function} options.on.close  The function to call when popup closes.
+ * @param {?function} options.on.afterClose  The function to call after the popup closes.
+ * @param {?string} options.placement  Where the popup should render relative to its marker.
+ *                                     'top' | 'bottom' | 'left' | 'right'.
+ *
+ * @param {?string} options.maxWidth  The CSS max-width value to use on the popup.
+ *
+ * @param {?boolean|string} options.pointer  The height of the pointer, or simply `true` to include one
+ *                                           with default height.
+ *
+ * @param {?boolean} options.openOnMarkerClick  If true, open the popup when its marker is clicked.
+ * @param {?boolean} options.toggleOnMarkerClick  If true, toggle the popup when its marker is clicked.
+ * @param {?boolean} options.closeOnMapClick  If true, close the popup when the map is clicked.
+ * @param {?boolean} options.showCloseButton  If true, display a button for closing the popup. If false,
+ *                                            it is up to the marker options to handle opening and closing.
+ *
+ * @param {?boolean} options.panOnOpen  Pan the map if necessary in order to display the entire popup content.
+ * @param {?boolean} options.openOnInitialization  If true, open the popup when it is first initialized.
+ * @param {?boolean} options.closeWhenOthersOpen  If true, close any other currently open popups when opening
+ *                                                a different one.
+ *
+ * @param {?object} options.edgeOffset  The pixel values that the popups should maintain from the border of the map.
+ * @param {?string} options.edgeOffset.top  The pixel value that the popups should maintain from the top of the map.
+ * @param {?string} options.edgeOffset.bottom  The pixel value that the popups should maintain from the bottom of the map.
+ * @param {?string} options.edgeOffset.left  The pixel value that the popups should maintain from the left of the map.
+ * @param {?string} options.edgeOffset.right  The pixel value that the popups should maintain from the right of the map.
+ * @param {?object} options.offset  The pixel values that the popup margin should have.
+ * @param {?string} options.offset.top  The pixel value that the popup top margin should have.
+ * @param {?string} options.offset.left  The pixel value that the popup left margin should have.
+ */
 function OverlayPopup ( options ) {
   if ( ! validateOptions( options ) ) {
     var errorMessage = 'Could not initialize OverlayPopup.' +

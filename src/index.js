@@ -9,14 +9,43 @@ var Marker = require( './marker.js' )
 
 module.exports = Map;
 
-// TODO: Add docs based including description of options
+/**
+ * Map object to create & manage a single map.
+ *
+ * The map will be initialized using the `options` object that is passed in.
+ * The `container` key must be a DOM node that the map can be mounted to.
+ * Any other keys in the `options` object will be passed to the Google Maps Map
+ * class, which accepts the following [map options]{@link https://developers.google.com/maps/documentation/javascript/reference/3/map#MapOptions}
+ *
+ * The `api` object that is returned includes four functions.
+ *
+ * - `mapInstance`: Takes no arguments, and returns the underlying Google Maps
+ *                  map class instance.
+ * - `data`: Given no arguments, this returns the current data object that will be used
+ *           to render map features. Otherwise, given a single argument, this object will
+ *           be stored as the source from which to render map features.
+ * - `render`: Accepts an optional object that will define the center lng & lat as well as
+ *             the zoom level to render the map at. The render function will use the current
+ *             `data` object and use it to render map features. This is the opposite of the
+ *             `removeFeatures` function.
+ * - `removeFeatures`: Takes no arguments, and removes all of the features that are on the map.
+ *                     This is the opposite of the `render` function.
+ *
+ * @param {object} options  The options to initialize the map with.
+ * @param {object} options.container  The DOM element to mount the map on to. Required.
+ * @return {object} api     The external API to be used by consumers of the module.
+ */
 function Map ( options ) {
   if ( ! ( this instanceof Map ) ) return new Map( options )
 
-  // TODO: Ensure there is a container to mount the map on to.
-  //       Throw an error or log out need for a container otherwise.
   // The element that contains to the Google Maps instance.
   var container = options.container || document.querySelector( '.map' )
+  if ( ! container ) {
+    var containerErrorMessage = 'Map must be initialized with a `container` ' +
+      'DOM element to mount to.' +
+      '\n\tMap( { container : DOMNode } )'
+    throw new Error( containerErrorMessage )
+  }
   
   // The global Google Maps instance for this initialization.
   var mapInstance = undefined;
