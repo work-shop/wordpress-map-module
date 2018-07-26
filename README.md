@@ -113,7 +113,7 @@ Marker `options` that include a `popup` key will have an OverlayPopup object cre
 
 ### Styling Tiles
 
-**[`src/tile-style.json`]** is a default set of tile styles in the form of a JSON object, which is how Google Maps allows for customizing tile styles. These can be overriden using the `styles` key of the `options` object that is passed into the Map.
+**[`src/tile-style.json`](src/tile-style.json)** is a default set of tile styles in the form of a JSON object, which is how Google Maps allows for customizing tile styles. These can be overriden using the `styles` key of the `options` object that is passed into the Map.
 
 To create tile style JSON objects, use one of the following services that allow you to import and export these JSON tile style representations.
 
