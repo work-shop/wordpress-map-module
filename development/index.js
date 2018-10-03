@@ -6,10 +6,10 @@ var apiData = require( './wordpress-api-sample.json' )
 // Wait for the Google Maps API to be load ( `window.google.maps` )
 $( window ).on('load', function () {
 
-  // Initialize a map without data to the default coordinates & zoom level
-  makeMap( {
-    container: document.querySelector( '#map-default' )
-  } ).render()
+  // // Initialize a map without data to the default coordinates & zoom level
+  // makeMap( {
+  //   container: document.querySelector( '#map-default' )
+  // } ).render()
 
   var initializerMaps = wordpressMapMaker( {
     selector: '.via-initializer',
@@ -39,23 +39,50 @@ $( window ).on('load', function () {
       center: { lat: 41.8240, lng: -71.4128 },
       zoom: 17
     }
-  } )
+} );
+
+  initializerMaps[0].data(
+            [
+                {
+                    marker: {
+                        position: { lat: 41.8240, lng: -71.4128 },
+                        icon: { fillColor: '#6ba442' }
+                    }
+                },
+                {
+                    marker: {
+                        position: { lat: 41.8244, lng: -71.4132 },
+                        icon: { fillColor: '#6ba442' }
+                    }
+                }
+
+            ]
+        ).removeFeatures().render( { zoom: 16 } ) ;
+
+    setTimeout( function() {
+
+        initializerMaps[0].render( { zoom: 5 }  );
+
+    }, 1500);
+
+
+
 
   // Initialize a map with some markers, and default popup styling
   var locationData = apiData.filter( apiDataHasLatLng ).map( apiDataToFeatureObject )
 
-  // working with ws-popup
-  makeMap( {
-    container: document.querySelector( '#map-with-ws-popup' )
-  } ).data( locationData )
-      .render()
-
-  // Remove features from the map after adding them
-  makeMap( {
-    container: document.querySelector( '#map-data-removed' )
-  } ).data( locationData )
-     .render()
-     .removeFeatures()
+  // // working with ws-popup
+  // makeMap( {
+  //   container: document.querySelector( '#map-with-ws-popup' )
+  // } ).data( locationData )
+  //     .render()
+  //
+  // // Remove features from the map after adding them
+  // makeMap( {
+  //   container: document.querySelector( '#map-data-removed' )
+  // } ).data( locationData )
+  //    .render()
+  //    .removeFeatures()
 } )
 
 function apiDataHasLatLng ( entry ) {
