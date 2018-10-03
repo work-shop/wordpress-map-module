@@ -57,7 +57,7 @@ $( window ).on('load', function () {
                 }
 
             ]
-        ).removeFeatures().render( { zoom: 16 } ) ;
+        ).removeFeatures().render( { zoom: 10 } ) ;
 
     setTimeout( function() {
 
