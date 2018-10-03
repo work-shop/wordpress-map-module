@@ -57,6 +57,13 @@ To develop the module: `npm run dev`. This will start a local development server
 - [`src/map-style.css`](src/map-style.css) is the style sheet that establishes basic necessary styles for the map.
 
 
+### Publish
+
+To publish, the npm user must be part of the same team as the owner of the package. Then run:
+
+`npm publish --access public`
+
+
 ### HTML API
 
 The HTML API entrypoint is [`src/initializer.js`](src/initializer.js).
