@@ -16,10 +16,11 @@ module.exports = Initializer;
  * used to extend the `options` passed into the Initializer.
  * 
  * @param {object} options  The default options.
- * @param {?object} options.map  The default options for the map instantiation.
- * @param {?object} options.data  The default options for the map's `data` function. Every
- *                                datum will extend this base data object.
- * @param {?object} options.render  The default options for the map's `render` function.
+ * @param {string} options.select   The selector used to capture map instances to initialize.
+ * @param {?object} options.map     The default options for the map instantiation.
+ * @param {?object} options.data    The default options for the map's `data` function. Every
+ *                                  datum will extend this base data object.
+ * @param {?object} options.render  The options to use for the maps first `render`. Use `options.map.render` for consistent default render options.
  * @return {object} mapInstances  An array of map module objects.
  */
 function Initializer ( options ) {
@@ -35,10 +36,6 @@ function Initializer ( options ) {
   }
 
   delete options.selector;
-
-  // var defaultMapInitializingOptions = options.map || {}
-  // var defaultMapDataOptions = options.data || {}
-  // var deafultRenderOptions = options.render || {}
 
   var mapElements = document.querySelectorAll( selector )
   var mapInstances = [];
