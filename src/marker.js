@@ -12,6 +12,12 @@ module.exports = Marker;
  * `popup` key within the `options` object, that will be used as the
  * options to create an OverlayPopup that will be attached this marker.
  *
+ * The options passed into the google.maps.Marker class has the
+ * [options outlined here.]{@link https://developers.google.com/maps/documentation/javascript/reference/marker#MarkerOptions}
+ *
+ * The options.icon property gets passed into the google.maps.Icon interface
+ * which has [options outlined here.]{@link https://developers.google.com/maps/documentation/javascript/reference/marker#Icon}
+ *
  * The `api` object that is returned includes 4 functions:
  * - `instance`: returns the unerlying google.maps.Marker object.
  * - `options`: returns the original object used to create the marker.
