@@ -9,6 +9,36 @@ var Marker = require( './marker.js' )
 
 module.exports = Map;
 
+function conditionallySetCenter( renderOptions, mapInstance ) {
+    if ( !isPosition( renderOptions.center ) ) {
+
+        var renderCenterErrorMessage = 'Could not set the map center.' +
+          '\nThe `map.render` function accepts an object with a `center` key,' +
+          '\nwhose value should be a object, with two keys: `lat` & `lng` that' +
+          '\nare the latitude & longitude values that will be used to center' +
+          '\nthe map.'
+
+        throw new Error( renderCenterErrorMessage )
+
+    }
+
+    mapInstance.setCenter( renderOptions.center )
+}
+
+function conditionallySetZoom( renderOptions, mapInstance ) {
+    if ( !isNumber( renderOptions.zoom ) ) {
+
+        var renderZoomErrorMessage = 'Could not set the zoom level.' +
+          '\nThe `map.render` function accepts an object with `zoom` key,'
+          '\n'
+
+        throw new Error( renderZoomErrorMessage )
+
+    }
+
+    mapInstance.setZoom( renderOptions.zoom )
+}
+
 /**
  * Map object to create & manage a single map.
  *
@@ -46,7 +76,7 @@ function Map ( options ) {
       '\n\tMap( { container : DOMNode } )'
     throw new Error( containerErrorMessage )
   }
-  
+
   // The global Google Maps instance for this initialization.
   var mapInstance = undefined;
 
@@ -60,7 +90,7 @@ function Map ( options ) {
     zoom: options.zoom || 14,
     // defaults to Providence, RI coordinates
     center: options.center || { lat: 41.8240, lng: -71.4128 },
-    // defaults to `Silver` styles as defined by`https://mapstyle.withgoogle.com/` 
+    // defaults to `Silver` styles as defined by`https://mapstyle.withgoogle.com/`
     styles: options.styles || deafultTileStyle,
     gestureHandling: options.gestureHandling || 'cooperative',
   }
@@ -87,7 +117,7 @@ function Map ( options ) {
    * - Render a map with the current `mapOptions`.
    * - Create map `features` based on the current `data`.
    *   - Currently supports rendering `marker` & `infoWindow` objects within `data`.
-   * - If a `center` or `zoom` are not provided, then the map bounds will be defined
+   * - If neither `center` nor `zoom` are provided, then the map bounds will be defined
    *   by the bounding box that encapsulates all of the features.
    *
    * @param {?object} renderOptions            Optional object
@@ -111,43 +141,23 @@ function Map ( options ) {
                      .map( createMarker )
     }
 
-    // Update map based on `renderOptions`
-    if ( renderOptions.center || renderOptions.zoom ) {
-      // set map bounds based on center &| zoom
-      if ( renderOptions.center ) {
-        if ( isPosition( renderOptions.center ) ) {
-          mapInstance.setCenter( renderOptions.center )
-        }
-        else {
-          var renderCenterErrorMessage = 'Could not set the map center.' +
-            '\nThe `map.render` function accepts an object with a `center` key,' +
-            '\nwhose value should be a object, with two keys: `lat` & `lng` that' +
-            '\nare the latitude & longitude values that will be used to center' +
-            '\nthe map.'
-          throw new Error( renderCenterErrorMessage )
-        }
-      }
-      else {
-        // set bounds based on data
+    if ( renderOptions.center && renderOptions.zoom ) {
+        // set both center and zoom.
+        conditionallySetCenter( renderOptions, mapInstance );
+        conditionallySetZoom( renderOptions, mapInstance );
+
+    } else if ( renderOptions.center && !renderOptions.zoom ) {
+        // set center, leaving zoom level at its previous state
+        conditionallySetCenter( renderOptions, mapInstance );
+
+    } else if ( !renderOptions.center && renderOptions.zoom ) {
+        // set zoom, leaving current center at its previous state
+        conditionallySetZoom( renderOptions, mapInstance );
+
+    } else if ( isArrayWithItems( features ) ) {
+        // neither center nor zoom specified, fit map bounds to features
         mapInstance.fitBounds( getFeatureBounds( features ), fitBoundsPadding )
-      }
-      if ( renderOptions.zoom ) {
-        if ( isNumber( renderOptions.zoom ) ) {
-          mapInstance.setZoom( renderOptions.zoom )
-        }
-        else {
-          var renderZoomErrorMessage = 'Could not set the zoom level.' +
-            '\nThe `map.render` function accepts an object with `zoom` key,'
-            '\n'
-          throw new Error( renderZoomErrorMessage )
-        }
-      }
-    }
-    else {
-      // set map bounds based on data
-      if ( isArrayWithItems( features ) ) {
-        mapInstance.fitBounds( getFeatureBounds( features ), fitBoundsPadding )
-      }
+
     }
 
     return api;
@@ -160,7 +170,7 @@ function Map ( options ) {
    *
    * `newData` should be an object or array that represents features
    * to add to a map.
-   * 
+   *
    * @param  {?object} newData  An object or array of data to add to the map
    * @return {object}  api      Reference to this module's API.
    */
@@ -173,7 +183,7 @@ function Map ( options ) {
 
   /**
    * Remove all features from the map.
-   * 
+   *
    * @return {object} api  Reference to this module's API
    */
   function removeFeatures () {
@@ -199,7 +209,7 @@ function Map ( options ) {
  * all of the points, and return the `bounds` object.
  *
  * bounds :  { north : Number, east : Number, south : Number, west : Number }
- * 
+ *
  * @param  {object} features  Map feature objects
  * @return {object} bounds    Defines a box that includes all features
  */
@@ -221,7 +231,7 @@ function getFeatureBounds ( features ) {
         if ( position.lng() > bounds.east ) bounds.east = position.lng()
         if ( position.lng() < bounds.west ) bounds.west = position.lng()
       }
-    } 
+    }
   }
   return bounds;
 }
