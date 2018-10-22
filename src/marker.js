@@ -137,9 +137,10 @@ function validateOptions ( markerOptions ) {
 function mergeWithDefaults ( options ) {
   var map = options.map;
   delete options.map;
-  options = deepmerge( defaultOptions(), options )
-  options.map = map;
-  return options;
+  var mergedOptions = deepmerge( defaultOptions(), options )
+  mergedOptions.map = map;
+  if ( options.icon.url ) delete mergedOptions.icon.path;
+  return mergedOptions;
 }
 
 function defaultIconOptions () {

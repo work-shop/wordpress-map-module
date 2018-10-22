@@ -49,7 +49,7 @@ $( window ).on('load', function () {
                 {
                     marker: {
                         position: { lat: 41.8244, lng: -71.4132 },
-                        // icon: { fillColor: '#6ba442' }
+                        icon: { url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png' }
                     }
                 }
 
