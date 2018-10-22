@@ -34,9 +34,11 @@ function Initializer ( options ) {
     throw new Error( selectorErrorMessage )
   }
 
-  var defaultMapInitializingOptions = options.map || {}
-  var defaultMapDataOptions = options.data || {}
-  var deafultRenderOptions = options.render || {}
+  delete options.selector;
+
+  // var defaultMapInitializingOptions = options.map || {}
+  // var defaultMapDataOptions = options.data || {}
+  // var deafultRenderOptions = options.render || {}
 
   var mapElements = document.querySelectorAll( selector )
   var mapInstances = [];
@@ -45,33 +47,20 @@ function Initializer ( options ) {
     var mapElement = mapElements[ i ]
     var mapOptionsVariable = mapElement.dataset.options;
     var mapOptions = window[ mapOptionsVariable ]
-    if ( ! mapOptions ) {
-      var mapOptions = {
-        map: {},
-        data: [],
-        render: {},
-      }
-    }
 
-    var instanceMapInitializationOptions = mapOptions.map || {}
+    if ( ! mapOptions ) mapOptions = { map: {}, data: [], render: {} }
+
     var mapInitializingOptions = Object.assign(
       { container: mapElement },
-      defaultMapInitializingOptions,
-      instanceMapInitializationOptions
+      options,
+      mapOptions.map || {}
     )
 
     var currentMap = makeMap( mapInitializingOptions )
 
-    if ( mapOptions.data ) {
-      currentMap.data( mapOptions.data )
-      var mapData = currentMap.data()
-      mapData = mapData.map( function ( mapFeatureDatum ) {
-        return deepmerge( defaultMapDataOptions, mapFeatureDatum );
-      } )
-      currentMap.data( mapData )
-    }
+    if ( mapOptions.data ) currentMap.data( mapOptions.data || [] )
 
-    currentMap.render( deepmerge( deafultRenderOptions, ( mapOptions.render || {} ) ) )
+    currentMap.render( mapOptions.render || {} )
 
     mapInstances.push( currentMap );
 

@@ -13,24 +13,21 @@ $( window ).on('load', function () {
 
   var initializerMaps = wordpressMapMaker( {
     selector: '.via-initializer',
-    map: {
-      streetViewControl: false,
-    },
-    data: {
-      marker: {
-        icon: {
-          fillColor: 'rgb(200, 10, 10)',
-        },
-        popup: {
-          placement: 'left',
-          pointer: '8px',
-          on: {
-            open: function () {
-              console.log( 'opened:' + this._options.id )
-            },
-            close: function () {
-              console.log( 'closed:' + this._options.id )
-            }
+    streetViewControl: false,
+    marker: {
+      icon: {
+        // fillColor: 'rgb(200, 10, 10)',
+        fillColor: 'blue',
+      },
+      popup: {
+        placement: 'left',
+        pointer: '8px',
+        on: {
+          open: function () {
+            console.log( 'opened:' + this._options.id )
+          },
+          close: function () {
+            console.log( 'closed:' + this._options.id )
           }
         }
       }
@@ -38,7 +35,7 @@ $( window ).on('load', function () {
     render: {
       center: { lat: 41.8240, lng: -71.4128 },
       zoom: 17
-    }
+    },
 } );
 
   initializerMaps[0].data(
@@ -52,7 +49,7 @@ $( window ).on('load', function () {
                 {
                     marker: {
                         position: { lat: 41.8244, lng: -71.4132 },
-                        icon: { fillColor: '#6ba442' }
+                        // icon: { fillColor: '#6ba442' }
                     }
                 }
 
@@ -64,8 +61,6 @@ $( window ).on('load', function () {
         initializerMaps[0].render( { zoom: 5 }  );
 
     }, 1500);
-
-
 
 
   // Initialize a map with some markers, and default popup styling

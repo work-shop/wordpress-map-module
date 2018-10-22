@@ -5,6 +5,7 @@ var isPosition = require( './utils/is-position.js' )
 var deafultTileStyle = require( './tile-style.json' )
 var isObject = require( './utils/is-object.js' )
 var isNumber = require( './utils/is-number.js' )
+var deepmerge = require( 'deepmerge' )
 var Marker = require( './marker.js' )
 
 module.exports = Map;
@@ -45,7 +46,11 @@ function conditionallySetZoom( renderOptions, mapInstance ) {
  * The map will be initialized using the `options` object that is passed in.
  * The `container` key must be a DOM node that the map can be mounted to.
  * Any other keys in the `options` object will be passed to the Google Maps Map
- * class, which accepts the following [map options]{@link https://developers.google.com/maps/documentation/javascript/reference/3/map#MapOptions}
+ * class, which accepts the following [map options]{@link https://developers.google.com/maps/documentation/javascript/reference/3/map#MapOptions},
+ * in addition to a `marker` key whose object value will be used as the basis
+ * for extending [feature marker options]{@link ./marker.js}, and a `render` key
+ * whose object will be used as the basis for extending theh `renderOptions`
+ * passed into the `render` method.
  *
  * The `api` object that is returned includes four functions.
  *
@@ -61,8 +66,10 @@ function conditionallySetZoom( renderOptions, mapInstance ) {
  * - `removeFeatures`: Takes no arguments, and removes all of the features that are on the map.
  *                     This is the opposite of the `render` function.
  *
- * @param {object} options  The options to initialize the map with.
+ * @param {object} options  The options to initialize the map with. Including [all google.maps.Map options]{@link https://developers.google.com/maps/documentation/javascript/reference/3/map#MapOptions}
  * @param {object} options.container  The DOM element to mount the map on to. Required.
+ * @param {object} options.marker?    The default marker options to use when rendering [marker]{@link ./marker.js} features.
+ * @param {object} options.render?    The default render options to use when rendering the map.
  * @return {object} api     The external API to be used by consumers of the module.
  */
 function Map ( options ) {
@@ -76,6 +83,16 @@ function Map ( options ) {
       '\n\tMap( { container : DOMNode } )'
     throw new Error( containerErrorMessage )
   }
+
+  delete options.container;
+
+  // Pull the default marker options
+  var defaultMarkerOptions = Object.assign( {}, options.marker )
+  delete options.marker;
+
+  // Pull the default render options
+  var defaultRenderOptions = Object.assign( {}, options.render )
+  delete options.render;
 
   // The global Google Maps instance for this initialization.
   var mapInstance = undefined;
@@ -128,7 +145,7 @@ function Map ( options ) {
    * @return {object} api  Reference to this module's API.
    */
   function render ( renderOptions ) {
-    if ( ! renderOptions ) renderOptions = {}
+    if ( ! renderOptions ) renderOptions = defaultRenderOptions
     Object.assign( mapOptions, renderOptions )
     if ( ! mapInstance ) {
       mapInstance = new google.maps.Map( container, mapOptions )
@@ -197,7 +214,7 @@ function Map ( options ) {
   // Given options for a Marker, supply the underlying map instance,
   // initialize the Marker & render it.
   function createMarker ( markerOptions ) {
-    markerOptions = Object.assign( { map: mapInstance }, markerOptions )
+    markerOptions = Object.assign( { map: mapInstance }, deepmerge( defaultMarkerOptions, markerOptions ) )
     return Marker( markerOptions ).render()
   }
 }
