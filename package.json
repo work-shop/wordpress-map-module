@@ -1,6 +1,6 @@
 {
   "name": "@work-shop/map-module",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Map module intended for integration in Work-Shop Wordpress environments.",
   "main": "src/initializer.js",
   "scripts": {
