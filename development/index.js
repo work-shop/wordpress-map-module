@@ -14,6 +14,67 @@ $( window ).on('load', function () {
   var initializerMaps = wordpressMapMaker( {
     selector: '.via-initializer',
     streetViewControl: false,
+    styles: [
+                {
+                    'featureType': 'poi.business',
+                    'stylers': [
+                    {
+                        'visibility': 'off'
+                    }
+                    ]
+                },
+                {
+                    'featureType': 'poi.park',
+                    'stylers': [
+                    {
+                        'visibility': 'on'
+                    }
+                    ]
+                },
+                {
+                    'featureType': 'poi.park',
+                    'elementType': 'labels.text',
+                    'stylers': [
+                    {
+                        'visibility': 'off'
+                    }
+                    ]
+                },
+                {
+                    'featureType': 'poi.school',
+                    'stylers': [
+                    {
+                        'visibility': 'off'
+                    }
+                    ]
+                },
+                {
+                    'featureType': 'road.arterial',
+                    'elementType': 'labels.icon',
+                    'stylers': [
+                    {
+                        'visibility': 'off'
+                    }
+                    ]
+                },
+                {
+                    'featureType': 'road.highway',
+                    'stylers': [
+                    {
+                        'color': '#ffffff'
+                    }
+                    ]
+                },
+                {
+                    'featureType': 'road.highway',
+                    'elementType': 'geometry.stroke',
+                    'stylers': [
+                    {
+                        'color': '#e1e1e1'
+                    }
+                    ]
+                }
+            ],
     marker: {
       icon: {
         // fillColor: 'rgb(200, 10, 10)',
