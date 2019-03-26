@@ -12,21 +12,21 @@ module.exports = OverlayPopup;
 /**
  * OverlayPopup creates a google.maps.OverlayView that can be
  * tied to a map marker.
- * 
+ *
  * @param {object} options  The options that describe the popup.
  * @param {string|DOMElement} options.content  A string of HTML or DOM element to use as
  *                                             the content of the popup. Required.
- *                                             
+ *
  * @param {?object} options.marker  A google.maps.Marker instance to attach
  *                                  the popup to.
- *                                  
+ *
  * @param {?object} options.map  A google.maps.Map instance to attach the popup to. If using
  *                               this option, a `position` must also be defined.
- *                               
+ *
  * @param {?object} options.position  An object with a `lat` & `lng` value that determine
  *                                   the popup's placement. If using this option, a `map`
  *                                   must also be defined.
- *                                   
+ *
  * @param {?object} options.on  An object of event handlers.
  * @param {?function} options.on.beforeOpen  The function to call before opening the popup.
  * @param {?function} options.on.open  The function to call when popup opens.
@@ -426,13 +426,13 @@ function onAdd () {
     if ( this._options.border ) {
       this._html.pointerBorder = newElement(
         'pointer-' + this._options.placement,
-        'pointer-border-' + this._options.placement,
+        'pointer-border-' + this._options.placement
       )
       this._html.wrapper.appendChild( this._html.pointerBorder )
     }
     this._html.pointerBackground = newElement(
       'pointer-' + this._options.placement,
-      'pointer-background-' + this._options.placement,
+      'pointer-background-' + this._options.placement
     )
     this._html.wrapper.appendChild( this._html.pointerBackground )
   }
@@ -523,7 +523,7 @@ function onAdd () {
   this.callEventHandler( 'open' )
 
   // End of `onAdd`
-  
+
   // `onAdd` helpers
 
   function applyCSS ( element, classList ) {
@@ -580,7 +580,7 @@ function reposition () {
 
   var mapInnerBounds = this.getMapInnerBounds()
   var wrapperBounds = this._html.wrapper.getBoundingClientRect()
-  
+
   // pan map to include popup bounds.
   var dx = 0;
   var dy = 0;
@@ -641,7 +641,7 @@ function resize () {
 // --- Defaults ---
 
 function defaultShadow () {
-  return { 
+  return {
     h: '0px',
     v: '3px',
     blur: '6px',
@@ -689,14 +689,14 @@ function defaultOptions ( constructorOptions ) {
  * - `content`: A string or DOM element.
  *
  * And either one of the following:
- * 
+ *
  * - `marker`:     A google.maps.Marker instance.
  *
  * Or
- * 
+ *
  * - `map`:     A google.maps.Marker instance.
  * - `position`:   An object with `lat` & `lng` numbers
- * 
+ *
  * @param  {object} options
  * @param  {object} options.marker
  * @param  {object|string} options.content
@@ -742,7 +742,7 @@ function capitalize ( str ) {
  * Given a CSS attribute value string, and a default value
  * return an object that includes has keys for the
  * `value`, `units` & original attribute value.
- * 
+ *
  * @param  {string} attribute    The attribute string to parse.
  * @param  {string} defaultValue The default value if the `attribute` is falsey.
  * @return {object} parsed       The parsed attribute object.
@@ -798,7 +798,7 @@ function setHTML ( container, content ) {
 /**
  * Given a marker placement ( top, bottom, left, right )
  * return the opposite placement.
- * 
+ *
  * @param  {string} placement The current placement
  * @return {string} opposite  The opposite placement.
  */
@@ -814,7 +814,7 @@ function oppositePlacement ( placement ) {
  * Given an object, `obj`, return a function that will
  * return true if the `key` passed into the function
  * is defined within the `obj`.
- * 
+ *
  * @param  {object} obj         The object to inspect
  * @return {function} keyIsSet  Call with a key to see if it in `obj`
  */
